@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Micro_stepper_robot-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +19,7 @@ U 1 1 5E6E63B8
 P 4100 3050
 F 0 "M1" H 4288 3173 50  0000 L CNN
 F 1 "Stepper_Motor_bipolar" H 4288 3082 50  0000 L CNN
-F 2 "my_footprints:micro_stepper1" H 4110 3040 50  0001 C CNN
+F 2 "kicad_footprints:micro_stepper1" H 4110 3040 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 4110 3040 50  0001 C CNN
 	1    4100 3050
 	1    0    0    -1  
@@ -64,7 +63,7 @@ U 1 1 5E6F7092
 P 6850 3150
 F 0 "M3" H 7038 3273 50  0000 L CNN
 F 1 "Stepper_Motor_bipolar" H 7038 3182 50  0000 L CNN
-F 2 "my_footprints:micro_stepper1" H 6860 3140 50  0001 C CNN
+F 2 "kicad_footprints:micro_stepper1" H 6860 3140 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 6860 3140 50  0001 C CNN
 	1    6850 3150
 	1    0    0    -1  
@@ -108,7 +107,7 @@ U 1 1 5E6F7332
 P 4150 4350
 F 0 "M2" H 4338 4473 50  0000 L CNN
 F 1 "Stepper_Motor_bipolar" H 4338 4382 50  0000 L CNN
-F 2 "my_footprints:micro_stepper1" H 4160 4340 50  0001 C CNN
+F 2 "kicad_footprints:micro_stepper1" H 4160 4340 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 4160 4340 50  0001 C CNN
 	1    4150 4350
 	1    0    0    -1  
@@ -152,7 +151,7 @@ U 1 1 5E6F78BF
 P 6850 4400
 F 0 "M4" H 7038 4523 50  0000 L CNN
 F 1 "Stepper_Motor_bipolar" H 7038 4432 50  0000 L CNN
-F 2 "my_footprints:micro_stepper1" H 6860 4390 50  0001 C CNN
+F 2 "kicad_footprints:micro_stepper1" H 6860 4390 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 6860 4390 50  0001 C CNN
 	1    6850 4400
 	1    0    0    -1  
