@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -25,10 +25,10 @@ F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarSte
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor:Stepper_Motor_bipolar M?
+L Motor:Stepper_Motor_bipolar M2
 U 1 1 5EF0ADEA
 P 9750 3650
-F 0 "M?" H 9938 3773 50  0000 L CNN
+F 0 "M2" H 9938 3773 50  0000 L CNN
 F 1 "Stepper_Motor_bipolar" H 9938 3682 50  0000 L CNN
 F 2 "kicad_footprints:micro_stepper1" H 9760 3640 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 9760 3640 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarSte
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor:Stepper_Motor_bipolar M?
+L Motor:Stepper_Motor_bipolar M3
 U 1 1 5EF0B15F
 P 9750 4200
-F 0 "M?" H 9938 4323 50  0000 L CNN
+F 0 "M3" H 9938 4323 50  0000 L CNN
 F 1 "Stepper_Motor_bipolar" H 9938 4232 50  0000 L CNN
 F 2 "kicad_footprints:micro_stepper1" H 9760 4190 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 9760 4190 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarSte
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor:Stepper_Motor_bipolar M?
+L Motor:Stepper_Motor_bipolar M4
 U 1 1 5EF0B559
 P 9750 4750
-F 0 "M?" H 9938 4873 50  0000 L CNN
+F 0 "M4" H 9938 4873 50  0000 L CNN
 F 1 "Stepper_Motor_bipolar" H 9938 4782 50  0000 L CNN
 F 2 "kicad_footprints:micro_stepper1" H 9760 4740 50  0001 C CNN
 F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 9760 4740 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarSte
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery_Management:MCP73812T-420I-OT U?
+L Battery_Management:MCP73812T-420I-OT U5
 U 1 1 5EF0FBE9
 P 5100 1450
-F 0 "U?" H 5544 1496 50  0000 L CNN
+F 0 "U5" H 5544 1496 50  0000 L CNN
 F 1 "MCP73812T-420I-OT" H 5544 1405 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5150 1200 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf" H 4850 1700 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf" H 4850 1700 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 5EF109A6
 P 3500 1400
-F 0 "BT?" H 3618 1496 50  0000 L CNN
+F 0 "BT1" H 3618 1496 50  0000 L CNN
 F 1 "Battery_Cell" H 3618 1405 50  0000 L CNN
 F 2 "" V 3500 1460 50  0001 C CNN
 F 3 "~" V 3500 1460 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "~" V 3500 1460 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Mini J?
+L Connector:USB_B_Mini J4
 U 1 1 5EF118EB
 P 8500 1450
-F 0 "J?" H 8557 1917 50  0000 C CNN
+F 0 "J4" H 8557 1917 50  0000 C CNN
 F 1 "USB_B_Mini" H 8557 1826 50  0000 C CNN
 F 2 "" H 8650 1400 50  0001 C CNN
 F 3 "~" H 8650 1400 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "~" H 8650 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_USB:FT231XS U?
+L Interface_USB:FT231XS U6
 U 1 1 5EF17383
 P 5800 3750
-F 0 "U?" H 5400 4650 50  0000 C CNN
+F 0 "U6" H 5400 4650 50  0000 C CNN
 F 1 "FT231XS" H 5400 4550 50  0000 C CNN
 F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" H 6800 2950 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 5800 3750 50  0001 C CNN
@@ -102,21 +102,10 @@ F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 
 	1    0    0    -1  
 $EndComp
 $Comp
-L RF_Module:ESP32-WROOM-32 U?
-U 1 1 5EF0D093
-P 2600 3950
-F 0 "U?" H 2200 5450 50  0000 C CNN
-F 1 "ESP32-WROOM-32" H 2150 5350 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 2600 2450 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2300 4000 50  0001 C CNN
-	1    2600 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:LM1117-3.3 U?
+L Regulator_Linear:LM1117-3.3 U7
 U 1 1 5EF11066
 P 7150 1300
-F 0 "U?" H 7150 1542 50  0000 C CNN
+F 0 "U7" H 7150 1542 50  0000 C CNN
 F 1 "LM1117-3.3" H 7150 1451 50  0000 C CNN
 F 2 "" H 7150 1300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 7150 1300 50  0001 C CNN
@@ -124,10 +113,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 7150 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driver_Motor:DRV8833PW U?
+L Driver_Motor:DRV8833PW U8
 U 1 1 5EF13196
 P 8050 3200
-F 0 "U?" H 8050 2411 50  0000 C CNN
+F 0 "U8" H 8050 2411 50  0000 C CNN
 F 1 "DRV8833PW" H 8050 2320 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8500 3650 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/drv8833.pdf" H 7900 3750 50  0001 C CNN
@@ -135,10 +124,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/drv8833.pdf" H 7900 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driver_Motor:DRV8833PW U?
+L Driver_Motor:DRV8833PW U9
 U 1 1 5EF140EA
 P 8050 5100
-F 0 "U?" H 8050 4311 50  0000 C CNN
+F 0 "U9" H 8050 4311 50  0000 C CNN
 F 1 "DRV8833PW" H 8050 4220 50  0000 C CNN
 F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8500 5550 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/drv8833.pdf" H 7900 5650 50  0001 C CNN
@@ -146,10 +135,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/drv8833.pdf" H 7900 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0115
 U 1 1 5EF16582
 P 3500 1550
-F 0 "#PWR?" H 3500 1300 50  0001 C CNN
+F 0 "#PWR0115" H 3500 1300 50  0001 C CNN
 F 1 "GND" H 3505 1377 50  0000 C CNN
 F 2 "" H 3500 1550 50  0001 C CNN
 F 3 "" H 3500 1550 50  0001 C CNN
@@ -161,10 +150,10 @@ Wire Wire Line
 Wire Wire Line
 	3500 1150 3500 1200
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0116
 U 1 1 5EF1CC1F
 P 3500 1150
-F 0 "#PWR?" H 3500 1000 50  0001 C CNN
+F 0 "#PWR0116" H 3500 1000 50  0001 C CNN
 F 1 "+BATT" H 3515 1323 50  0000 C CNN
 F 2 "" H 3500 1150 50  0001 C CNN
 F 3 "" H 3500 1150 50  0001 C CNN
@@ -172,10 +161,10 @@ F 3 "" H 3500 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0117
 U 1 1 5EF1ECC8
 P 5600 1300
-F 0 "#PWR?" H 5600 1150 50  0001 C CNN
+F 0 "#PWR0117" H 5600 1150 50  0001 C CNN
 F 1 "+BATT" H 5615 1473 50  0000 C CNN
 F 2 "" H 5600 1300 50  0001 C CNN
 F 3 "" H 5600 1300 50  0001 C CNN
@@ -187,10 +176,10 @@ Wire Wire Line
 Wire Wire Line
 	5600 1350 5600 1300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 5EF20A73
 P 5100 1850
-F 0 "#PWR?" H 5100 1600 50  0001 C CNN
+F 0 "#PWR0118" H 5100 1600 50  0001 C CNN
 F 1 "GND" H 5105 1677 50  0000 C CNN
 F 2 "" H 5100 1850 50  0001 C CNN
 F 3 "" H 5100 1850 50  0001 C CNN
@@ -200,10 +189,10 @@ $EndComp
 Wire Wire Line
 	5100 1750 5100 1850
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0119
 U 1 1 5EF24F68
 P 8900 1200
-F 0 "#PWR?" H 8900 1050 50  0001 C CNN
+F 0 "#PWR0119" H 8900 1050 50  0001 C CNN
 F 1 "+5V" H 8915 1373 50  0000 C CNN
 F 2 "" H 8900 1200 50  0001 C CNN
 F 3 "" H 8900 1200 50  0001 C CNN
@@ -215,10 +204,10 @@ Wire Wire Line
 Wire Wire Line
 	8900 1250 8900 1200
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0120
 U 1 1 5EF26620
 P 5100 1050
-F 0 "#PWR?" H 5100 900 50  0001 C CNN
+F 0 "#PWR0120" H 5100 900 50  0001 C CNN
 F 1 "+5V" H 5115 1223 50  0000 C CNN
 F 2 "" H 5100 1050 50  0001 C CNN
 F 3 "" H 5100 1050 50  0001 C CNN
@@ -228,10 +217,10 @@ $EndComp
 Wire Wire Line
 	5100 1050 5100 1150
 $Comp
-L power:+BATT #PWR?
+L power:+BATT #PWR0121
 U 1 1 5EF29072
 P 6750 1200
-F 0 "#PWR?" H 6750 1050 50  0001 C CNN
+F 0 "#PWR0121" H 6750 1050 50  0001 C CNN
 F 1 "+BATT" H 6765 1373 50  0000 C CNN
 F 2 "" H 6750 1200 50  0001 C CNN
 F 3 "" H 6750 1200 50  0001 C CNN
@@ -243,10 +232,10 @@ Wire Wire Line
 Wire Wire Line
 	6750 1300 6850 1300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0122
 U 1 1 5EF29871
 P 7150 1700
-F 0 "#PWR?" H 7150 1450 50  0001 C CNN
+F 0 "#PWR0122" H 7150 1450 50  0001 C CNN
 F 1 "GND" H 7155 1527 50  0000 C CNN
 F 2 "" H 7150 1700 50  0001 C CNN
 F 3 "" H 7150 1700 50  0001 C CNN
@@ -256,10 +245,10 @@ $EndComp
 Wire Wire Line
 	7150 1600 7150 1700
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0123
 U 1 1 5EF2AE5A
 P 7550 1200
-F 0 "#PWR?" H 7550 1050 50  0001 C CNN
+F 0 "#PWR0123" H 7550 1050 50  0001 C CNN
 F 1 "+3.3V" H 7565 1373 50  0000 C CNN
 F 2 "" H 7550 1200 50  0001 C CNN
 F 3 "" H 7550 1200 50  0001 C CNN
@@ -271,23 +260,10 @@ Wire Wire Line
 Wire Wire Line
 	7550 1300 7550 1200
 $Comp
-L power:+3.3V #PWR?
-U 1 1 5EF2DEA9
-P 2600 2450
-F 0 "#PWR?" H 2600 2300 50  0001 C CNN
-F 1 "+3.3V" H 2615 2623 50  0000 C CNN
-F 2 "" H 2600 2450 50  0001 C CNN
-F 3 "" H 2600 2450 50  0001 C CNN
-	1    2600 2450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 2550 2600 2450
-$Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0124
 U 1 1 5EF355FE
 P 5800 2700
-F 0 "#PWR?" H 5800 2550 50  0001 C CNN
+F 0 "#PWR0124" H 5800 2550 50  0001 C CNN
 F 1 "+3.3V" H 5815 2873 50  0000 C CNN
 F 2 "" H 5800 2700 50  0001 C CNN
 F 3 "" H 5800 2700 50  0001 C CNN
@@ -304,10 +280,10 @@ Wire Wire Line
 	5900 2700 5900 2850
 Connection ~ 5800 2700
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0125
 U 1 1 5EF361B1
 P 5000 3100
-F 0 "#PWR?" H 5000 2950 50  0001 C CNN
+F 0 "#PWR0125" H 5000 2950 50  0001 C CNN
 F 1 "+3.3V" H 5015 3273 50  0000 C CNN
 F 2 "" H 5000 3100 50  0001 C CNN
 F 3 "" H 5000 3100 50  0001 C CNN
@@ -319,21 +295,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 3150 5100 3150
 $Comp
-L power:GND #PWR?
-U 1 1 5EF38558
-P 2600 5450
-F 0 "#PWR?" H 2600 5200 50  0001 C CNN
-F 1 "GND" H 2605 5277 50  0000 C CNN
-F 2 "" H 2600 5450 50  0001 C CNN
-F 3 "" H 2600 5450 50  0001 C CNN
-	1    2600 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 5EF38B4A
 P 5800 4700
-F 0 "#PWR?" H 5800 4450 50  0001 C CNN
+F 0 "#PWR0126" H 5800 4450 50  0001 C CNN
 F 1 "GND" H 5805 4527 50  0000 C CNN
 F 2 "" H 5800 4700 50  0001 C CNN
 F 3 "" H 5800 4700 50  0001 C CNN
@@ -349,17 +314,15 @@ Wire Wire Line
 Wire Wire Line
 	5900 4700 5900 4650
 Connection ~ 5800 4700
-Wire Wire Line
-	2600 5350 2600 5450
 Text Label 9200 1450 0    50   ~ 0
 USB_D+
 Text Label 9200 1550 0    50   ~ 0
 USB_D-
 $Comp
-L Device:R_Small R?
+L Device:R_Small R3
 U 1 1 5EF4D21D
 P 9000 1450
-F 0 "R?" V 8804 1450 50  0000 C CNN
+F 0 "R3" V 8804 1450 50  0000 C CNN
 F 1 "27R" V 8895 1450 50  0000 C CNN
 F 2 "" H 9000 1450 50  0001 C CNN
 F 3 "~" H 9000 1450 50  0001 C CNN
@@ -367,10 +330,10 @@ F 3 "~" H 9000 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R4
 U 1 1 5EF4D677
 P 9000 1550
-F 0 "R?" V 9200 1550 50  0000 C CNN
+F 0 "R4" V 9200 1550 50  0000 C CNN
 F 1 "27R" V 9100 1550 50  0000 C CNN
 F 2 "" H 9000 1550 50  0001 C CNN
 F 3 "~" H 9000 1550 50  0001 C CNN
@@ -386,10 +349,10 @@ Wire Wire Line
 Wire Wire Line
 	8800 1550 8900 1550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 5EF50ABB
 P 8500 1950
-F 0 "#PWR?" H 8500 1700 50  0001 C CNN
+F 0 "#PWR0127" H 8500 1700 50  0001 C CNN
 F 1 "GND" H 8505 1777 50  0000 C CNN
 F 2 "" H 8500 1950 50  0001 C CNN
 F 3 "" H 8500 1950 50  0001 C CNN
@@ -413,4 +376,180 @@ Wire Wire Line
 	5000 3450 5100 3450
 Wire Wire Line
 	5000 3550 5100 3550
+$Comp
+L RF_Module:ESP32-WROOM-32D U4
+U 1 1 5EF190AE
+P 2100 3850
+F 0 "U4" H 2100 5431 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 2100 5340 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 2100 2350 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 1800 3900 50  0001 C CNN
+	1    2100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW4
+U 1 1 5EF190B4
+P 3400 2650
+F 0 "SW4" H 3400 2885 50  0000 C CNN
+F 1 "BOOT" H 3400 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 3400 2650 50  0001 C CNN
+F 3 "~" H 3400 2650 50  0001 C CNN
+	1    3400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0128
+U 1 1 5EF190BA
+P 950 2150
+F 0 "#PWR0128" H 950 2000 50  0001 C CNN
+F 1 "+3.3V" H 965 2323 50  0000 C CNN
+F 2 "" H 950 2150 50  0001 C CNN
+F 3 "" H 950 2150 50  0001 C CNN
+	1    950  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5EF190C0
+P 950 2350
+F 0 "R2" V 743 2350 50  0000 C CNN
+F 1 "10K" V 834 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 880 2350 50  0001 C CNN
+F 3 "~" H 950 2350 50  0001 C CNN
+	1    950  2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  2500 950  2650
+$Comp
+L power:+3.3V #PWR0129
+U 1 1 5EF190C9
+P 2700 2400
+F 0 "#PWR0129" H 2700 2250 50  0001 C CNN
+F 1 "+3.3V" H 2715 2573 50  0000 C CNN
+F 2 "" H 2700 2400 50  0001 C CNN
+F 3 "" H 2700 2400 50  0001 C CNN
+	1    2700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2450 2700 2450
+Wire Wire Line
+	2700 2450 2700 2400
+$Comp
+L power:GND #PWR0130
+U 1 1 5EF190D1
+P 2100 5350
+F 0 "#PWR0130" H 2100 5100 50  0001 C CNN
+F 1 "GND" H 2105 5177 50  0000 C CNN
+F 2 "" H 2100 5350 50  0001 C CNN
+F 3 "" H 2100 5350 50  0001 C CNN
+	1    2100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 5250 2100 5350
+Wire Wire Line
+	2700 2650 3200 2650
+Wire Wire Line
+	3600 2650 3750 2650
+$Comp
+L power:GND #PWR0131
+U 1 1 5EF190DA
+P 3750 2650
+F 0 "#PWR0131" H 3750 2400 50  0001 C CNN
+F 1 "GND" V 3755 2522 50  0000 R CNN
+F 2 "" H 3750 2650 50  0001 C CNN
+F 3 "" H 3750 2650 50  0001 C CNN
+	1    3750 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPST SW3
+U 1 1 5EF190E0
+P 950 2950
+F 0 "SW3" V 996 2862 50  0000 R CNN
+F 1 "EN" V 905 2862 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 950 2950 50  0001 C CNN
+F 3 "~" H 950 2950 50  0001 C CNN
+	1    950  2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  2650 950  2750
+Connection ~ 950  2650
+$Comp
+L power:GND #PWR0132
+U 1 1 5EF190E8
+P 950 3250
+F 0 "#PWR0132" H 950 3000 50  0001 C CNN
+F 1 "GND" H 955 3077 50  0000 C CNN
+F 2 "" H 950 3250 50  0001 C CNN
+F 3 "" H 950 3250 50  0001 C CNN
+	1    950  3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3150 950  3250
+Text Label 2850 2750 0    50   ~ 0
+ESP_TXD0
+Text Label 2850 2950 0    50   ~ 0
+ESP_RXD0
+Wire Wire Line
+	2700 2750 2850 2750
+Wire Wire Line
+	2700 2950 2850 2950
+Text Label 2800 4250 0    50   ~ 0
+IO23
+Text Label 2800 4150 0    50   ~ 0
+IO22
+Text Label 2800 4050 0    50   ~ 0
+IO21
+Text Label 2800 3950 0    50   ~ 0
+IO19
+Text Label 2800 3850 0    50   ~ 0
+IO18
+Wire Wire Line
+	2700 3850 2800 3850
+Wire Wire Line
+	2700 3950 2800 3950
+Wire Wire Line
+	2700 4050 2800 4050
+Wire Wire Line
+	2700 4150 2800 4150
+Wire Wire Line
+	2700 4250 2800 4250
+Text Label 2800 4350 0    50   ~ 0
+IO25
+Text Label 2800 4450 0    50   ~ 0
+IO26
+Text Label 2800 4550 0    50   ~ 0
+IO27
+Text Label 2800 4650 0    50   ~ 0
+IO32
+Wire Wire Line
+	2700 4350 2800 4350
+Wire Wire Line
+	2700 4450 2800 4450
+Wire Wire Line
+	2700 4550 2800 4550
+Wire Wire Line
+	2700 4650 2800 4650
+Text Label 2800 4750 0    50   ~ 0
+IO33
+Wire Wire Line
+	2700 4750 2800 4750
+Wire Wire Line
+	950  2150 950  2200
+Wire Wire Line
+	950  2650 1500 2650
+Text Label 9650 2650 1    50   ~ 0
+LEFT_A
+Text Label 9850 2650 1    50   ~ 0
+LEFT_B
+Text Label 9350 2950 2    50   ~ 0
+LEFT_C
+Text Label 9350 3150 2    50   ~ 0
+LEFT_D
 $EndSCHEMATC
