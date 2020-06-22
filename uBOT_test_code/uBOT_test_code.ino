@@ -1,6 +1,6 @@
 
 
-int ms_delay = 25;
+int ms_delay = 100;
 
 // the setup function runs once when you press reset or power the board
 void setup() {

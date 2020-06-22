@@ -58,17 +58,6 @@ F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarSte
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega328-PU U?
-U 1 1 5EF0E4CA
-P 2200 3950
-F 0 "U?" H 1556 3996 50  0000 R CNN
-F 1 "ATmega328-PU" H 1556 3905 50  0000 R CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 2200 3950 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 2200 3950 50  0001 C CNN
-	1    2200 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Battery_Management:MCP73812T-420I-OT U?
 U 1 1 5EF0FBE9
 P 5100 1450
@@ -110,6 +99,50 @@ F 1 "FT231XS" H 5800 4740 50  0000 C CNN
 F 2 "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm" H 6800 2950 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 5800 3750 50  0001 C CNN
 	1    5800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Module:ESP32-WROOM-32 U?
+U 1 1 5EF0D093
+P 2600 3950
+F 0 "U?" H 2600 5531 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 2600 5440 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 2600 2450 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2300 4000 50  0001 C CNN
+	1    2600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM1117-3.3 U?
+U 1 1 5EF11066
+P 7100 1300
+F 0 "U?" H 7100 1542 50  0000 C CNN
+F 1 "LM1117-3.3" H 7100 1451 50  0000 C CNN
+F 2 "" H 7100 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 7100 1300 50  0001 C CNN
+	1    7100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:DRV8833PW U?
+U 1 1 5EF13196
+P 8050 3200
+F 0 "U?" H 8050 2411 50  0000 C CNN
+F 1 "DRV8833PW" H 8050 2320 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8500 3650 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8833.pdf" H 7900 3750 50  0001 C CNN
+	1    8050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:DRV8833PW U?
+U 1 1 5EF140EA
+P 8050 5100
+F 0 "U?" H 8050 4311 50  0000 C CNN
+F 1 "DRV8833PW" H 8050 4220 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 8500 5550 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/drv8833.pdf" H 7900 5650 50  0001 C CNN
+	1    8050 5100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
