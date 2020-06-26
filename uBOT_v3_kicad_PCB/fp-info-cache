@@ -1,4 +1,4 @@
-16947423899346809
+16949016753478525
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75270,6 +75270,13 @@ Multicomp_ultrasonic_transceiver
 0
 2
 2
+kicad_footprints
+OPTO_TCRT5000
+
+
+0
+4
+4
 kicad_footprints
 QFN-28_EP_6x6_Pitch0.65mm
 
