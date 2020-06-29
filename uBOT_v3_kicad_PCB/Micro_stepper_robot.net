@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\shane\Documents\GitHub\microBot\uBOT_v3_kicad_PCB\Micro_stepper_robot.sch)
-    (date "26/06/2020 07:33:30")
+    (date "29/06/2020 08:57:33")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -58,8 +58,8 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5EF109A6))
     (comp (ref J4)
-      (value USB_B_Mini)
-      (footprint Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal)
+      (value USB_B_Micro)
+      (footprint Connector_USB:USB_Micro-B_Molex-105133-0001)
       (datasheet ~)
       (libsource (lib Connector) (part USB_B_Mini) (description "USB Mini Type B connector"))
       (sheetpath (names /) (tstamps /))
