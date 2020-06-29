@@ -607,10 +607,8 @@ F 3 "" H 10550 4250 50  0001 C CNN
 	1    10550 4250
 	1    0    0    -1  
 $EndComp
-Text Label 2750 3650 0    50   ~ 0
+Text Label 1450 3850 2    50   ~ 0
 MOTOR_SLEEP
-Wire Wire Line
-	2700 3650 2750 3650
 Text Label 9100 4600 2    50   ~ 0
 MOTOR_SLEEP
 Wire Wire Line
@@ -738,14 +736,8 @@ Wire Wire Line
 	10450 1800 10550 1800
 Wire Wire Line
 	9850 1300 10450 1300
-Text Label 2750 3750 0    50   ~ 0
-LEFT_FAULT
-Text Label 2750 3850 0    50   ~ 0
+Text Label 2750 3250 0    50   ~ 0
 RIGHT_FAULT
-Wire Wire Line
-	2700 3750 2750 3750
-Wire Wire Line
-	2700 3850 2750 3850
 Text Notes 8700 4250 0    100  ~ 0
 LEFT MOTORS
 Text Notes 8600 1750 0    100  ~ 0
@@ -1124,4 +1116,12 @@ Wire Wire Line
 Wire Wire Line
 	4300 750  4950 750 
 Connection ~ 4950 1200
+Wire Wire Line
+	2700 3250 2750 3250
+Wire Wire Line
+	2700 3750 2750 3750
+Text Label 2750 3750 0    50   ~ 0
+LEFT_FAULT
+Wire Wire Line
+	1450 3850 1500 3850
 $EndSCHEMATC
