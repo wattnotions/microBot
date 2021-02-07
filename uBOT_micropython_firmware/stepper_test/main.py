@@ -5,7 +5,7 @@ import time
 
 print("IM IN MAIN")
 
-msdelay = 1000
+msdelay = 200
 
 la = 19
 lb = 21
@@ -36,25 +36,23 @@ while (run_time < 10):
     run_time = time.time() - start_time
     
     print("1")
-    left_a.value(1)
-    left_b.value(0)
-    time.sleep_ms(msdelay)
-    
-    print("2")
     left_a.value(0)
     left_b.value(1)
     time.sleep_ms(msdelay)
     
-    
-    print("3")
-    left_c.value(1)
-    left_d.value(0)
-    time.sleep_ms(msdelay)
-    
-    
-    print("4")
+    print("2")
     left_c.value(0)
     left_d.value(1)
+    time.sleep_ms(msdelay)
+    
+    print("3")
+    left_a.value(1)
+    left_b.value(0)
+    time.sleep_ms(msdelay)
+    
+    print("4")
+    left_c.value(1)
+    left_d.value(0)
     time.sleep_ms(msdelay)
     
     
