@@ -1166,4 +1166,12 @@ Wire Wire Line
 Wire Wire Line
 	2150 1250 2400 1250
 Connection ~ 2400 1250
+Wire Wire Line
+	6550 3150 6500 3150
+Wire Wire Line
+	6500 3250 6550 3250
+Text Label 6550 3150 0    50   ~ 0
+ESP_TXD0
+Text Label 6550 3250 0    50   ~ 0
+ESP_RXD0
 $EndSCHEMATC
